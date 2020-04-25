@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(242, 165, 26, 0.7);
+}
+#users {
+    margin: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+h4,p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+.box {
+    box-shadow: 0 0 10px 0 rgba(72, 94, 116, 0.3);
+    transition: 0.4s ease-in-out;
+    border: 3px solid rgba(242, 165, 26, 1);
+    border-radius: 25px;
+}
+.box:hover{
+    transform: scale(1.03);
+}
